@@ -1,0 +1,65 @@
+.header > * {
+	flex: 1;
+}
+
+.left-side {
+	display: none;
+}
+
+.right-side {
+	width: 100%;
+	display: flex;
+	gap: 1.5rem;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.right-nav {
+	display: flex;
+	gap: 1rem;
+	text-transform: capitalize;
+}
+.right-nav a:hover {
+	text-decoration: underline;
+}
+
+.right-side button {
+	width: 2.25rem;
+	height: 2.25rem;
+	border: none;
+	background: none;
+	padding: 0.2rem;
+}
+
+.gridicon {
+	width: 2.25rem;
+	height: 2.25rem;
+	padding: 0.4rem;
+}
+
+.avatar-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.avatar-btn:hover,
+.gridicon:hover {
+	border-radius: 50%;
+	background: rgba(232, 234, 237, 0.08);
+}
+
+.avatar {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.user-links {
+	display: flex;
+	align-items: center;
+	gap: 0.8rem;
+}
+
+.hidden {
+	display: none;
+}

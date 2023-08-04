@@ -1,0 +1,11 @@
+.img-section img {
+	width: 17rem;
+}
+
+.light .darklogo {
+	display: none;
+}
+
+.dark .lightlogo {
+	display: none;
+}

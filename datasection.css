@@ -1,0 +1,8 @@
+.data-section a {
+	margin-left: 0.4rem;
+	color: #8ab4f8;
+}
+
+.data-section a:hover {
+	text-decoration: underline;
+}
